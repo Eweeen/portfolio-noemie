@@ -63,7 +63,7 @@ export default function Contact(): JSX.Element {
           <h1 className="text-background bg-red py-2 px-3 rounded text-5xl font-black tracking-[-0.08em] -rotate-2">
             Discutons
           </h1>
-          <p>(promis je lirais tout {"<3"})</p>
+          <p>(promis je lirai tout {"<3"})</p>
         </header>
 
         <div className="relative z-20 w-full p-10 pt-25 md:p-33">

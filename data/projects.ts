@@ -40,7 +40,7 @@ export const projects: Array<Project> = [
     id: 2,
     name: "colorize",
     title: "Colorize",
-    preview: "mockup-annonce.png",
+    preview: "preview.png",
     content: {
       title: "Création de l’identité visuelle fictive de colorize",
       description: `Colorize, une entreprise innovante a mis au point un dentifrice avec une formule brevetée, validée par les dentistes.\n
