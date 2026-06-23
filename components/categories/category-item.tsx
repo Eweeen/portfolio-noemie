@@ -35,13 +35,13 @@ export default function CategoryItem({ category }: { category: Category }) {
         )}
       </div>
 
-      <h3 className="font-bold" style={{ color: category.color }}>
+      <h3 className="text-xl font-bold" style={{ color: category.color }}>
         {category.title}
       </h3>
 
       <p
         dangerouslySetInnerHTML={{ __html: category.description }}
-        className="whitespace-nowrap text-xs"
+        className="whitespace-nowrap"
       />
     </div>
   );
