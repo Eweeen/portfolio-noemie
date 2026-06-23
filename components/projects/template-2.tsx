@@ -13,7 +13,7 @@ export default function Template2({ project }: Template2Props): JSX.Element {
   return (
     <section className="flex flex-col gap-20 lg:gap-28">
       <article className="flex flex-col lg:flex-row items-center px-10 lg:px-32 gap-20 lg:gap-6">
-        <div className="w-full lg:w-2/5 h-65 md:h-125">
+        <div className="relative w-full lg:w-2/5 h-65 md:h-125">
           <Image
             src={`/images/${project.name}/${project.content.imagePresentation}`}
             alt={`Image de présentation du projet ${project.title}`}
@@ -57,7 +57,7 @@ export default function Template2({ project }: Template2Props): JSX.Element {
             key={i}
             className={`w-full lg:h-150 ${i === 0 ? "flex flex-col gap-8 lg:w-2/5" : "lg:w-3/5"}`}
           >
-            <div className="rounded object-cover w-full h-65 md:h-125 lg:h-full overflow-hidden">
+            <div className="relative rounded object-cover w-full h-65 md:h-125 lg:h-full overflow-hidden">
               <Image
                 src={`/images/${project.name}/${item}`}
                 alt={item}

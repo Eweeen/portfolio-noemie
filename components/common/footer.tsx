@@ -4,8 +4,8 @@ import { JSX } from "react";
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="relative z-50 bg-background p-6 md:p-20">
-      <div className="bg-[url('/images/fond.jpg')] bg-cover bg-center p-16 md:p-24 rounded-lg">
+    <footer className="relative z-30 bg-background p-6 md:p-20">
+      <div className="bg-[url('/images/fond.jpg')] bg-cover bg-center py-16 md:p-24 rounded-lg">
         <div className="flex flex-col items-center mb-6">
           <Image
             src="/svg/merci.svg"
