@@ -158,7 +158,7 @@ export const projects: Array<Project> = [
   {
     id: 6,
     name: "telegramme",
-    title: "le Télégramme",
+    title: "Le Télégramme",
     preview: "preview.png",
     content: {
       title:

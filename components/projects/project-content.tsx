@@ -54,17 +54,13 @@ export default function ProjectContent({
         transition={{ duration: DURATION }}
         className="relative z-20"
       >
-        <header className="flex justify-center gap-3 -mt-180 lg:-mt-160 mb-28 px-10">
+        <header className="flex justify-center gap-3 -mt-140 mb-28 px-10">
           <h1 className="text-center text-background bg-black-blue py-2 px-3 rounded text-5xl font-black tracking-[-0.08em] -rotate-2">
             {project.title}
           </h1>
         </header>
 
-        {project.name === "air-up" ? (
-          <Template2 project={project} />
-        ) : (
-          <Template1 project={project} />
-        )}
+        <Template1 project={project} />
       </motion.div>
     </>
   );

@@ -21,7 +21,7 @@ export default function About(): JSX.Element {
         initial={{ opacity: 0, y: FROM }}
         transition={{ duration: DURATION }}
       >
-        <header className="relative z-20 flex flex-col md:flex-row justify-between items-center gap-20 md:gap-40 -mt-70 md:-mt-50 mx-10 md:mx-50 mb-29 md:mb-40">
+        <header className="relative z-20 flex flex-col md:flex-row justify-between items-center gap-20 md:gap-40 -mt-50 mx-10 md:mx-50 mb-29 md:mb-40">
           <Image
             src="/images/noemie.webp"
             alt="Noémie"
@@ -65,7 +65,7 @@ export default function About(): JSX.Element {
           className="px-10 md:px-68 mb-29 md:mb-40"
         />
 
-        <div className="flex flex-col md:flex-row justify-between gap-20 md:gap-40 px-10 md:px-68 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-40 px-10 md:px-68 mb-20">
           {/* Parcours scolaire */}
           <div>
             <h2 className="text-3xl font-black tracking-[-0.06em]">Parcours</h2>

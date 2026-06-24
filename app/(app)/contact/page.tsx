@@ -59,7 +59,7 @@ export default function Contact(): JSX.Element {
         initial={{ opacity: 0, y: FROM }}
         transition={{ duration: DURATION }}
       >
-        <header className="relative z-20 flex flex-col items-center gap-3 -mt-160">
+        <header className="relative z-20 flex flex-col items-center gap-3 -mt-140">
           <h1 className="text-background bg-red py-2 px-3 rounded text-5xl font-black tracking-[-0.08em] -rotate-2">
             Discutons
           </h1>
@@ -128,7 +128,7 @@ export default function Contact(): JSX.Element {
 
             <button
               type="submit"
-              className="line-hover relative w-fit text-xl font-medium cursor-pointer"
+              className="line-hover relative w-fit mx-auto text-xl font-medium cursor-pointer"
             >
               Envoyer
               <Underline className="line-svg absolute top-[calc(100%-4px)] left-1/2 -translate-x-1/2 h-2" />

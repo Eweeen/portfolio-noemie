@@ -82,7 +82,7 @@ export default function Projects(): JSX.Element {
         initial={{ opacity: 0, y: FROM }}
         transition={{ duration: DURATION }}
       >
-        <header className="relative z-20 flex flex-col items-center gap-3 -mt-180 md:-mt-160">
+        <header className="relative z-20 flex flex-col items-center gap-3 -mt-140">
           <h1 className="text-background bg-red py-2 px-3 rounded text-5xl font-black tracking-[-0.08em] -rotate-2">
             Projets
           </h1>

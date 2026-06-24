@@ -41,7 +41,7 @@ export default function CategoryItem({ category }: { category: Category }) {
 
       <p
         dangerouslySetInnerHTML={{ __html: category.description }}
-        className="whitespace-nowrap"
+        className="text-sm whitespace-nowrap"
       />
     </div>
   );

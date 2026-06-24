@@ -41,9 +41,9 @@ export default function HomePresentation(): JSX.Element {
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: FROM }}
           transition={{ duration: DURATION }}
-          className="h-full flex flex-col items-center justify-center"
+          className="h-full flex flex-col items-center justify-center px-8"
         >
-          <h1 className="text-[40px] md:text-[56px] font-black -tracking-widest">
+          <h1 className="text-[40px] md:text-[56px] font-black -tracking-widest text-center">
             Ici, on se perd pour
           </h1>
           <Image
@@ -52,9 +52,11 @@ export default function HomePresentation(): JSX.Element {
             loading="eager"
             width={200}
             height={100}
-            className="w-90 md:w-140 h-auto -mt-7 md:-mt-10"
+            className="w-full md:w-140 h-auto -mt-7 md:-mt-10"
           />
-          <p className="pt-3 md:text-xl">(je m’occupe de tout réorganiser)</p>
+          <p className="pt-3 md:text-xl text-center">
+            (je m’occupe de tout réorganiser)
+          </p>
 
           <button
             className="line-hover absolute text-xl font-medium bottom-19 cursor-pointer"

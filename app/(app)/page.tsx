@@ -17,7 +17,19 @@ export default function Home(): JSX.Element {
         <Categories categories={categories} className="2xl:px-33" />
 
         {/* Video */}
-        <div className="w-full aspect-video bg-gray-300 rounded-md"></div>
+        <div className="w-full aspect-video rounded-md overflow-hidden">
+          <iframe
+            src="https://www.youtube.com/embed/rDBDzWOrq88?si=gZzYg5XIlEWQIo-V"
+            width="520"
+            height="315"
+            className="w-full h-full"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         {/* Projects */}
         <div id="projects" className="flex flex-col gap-10">
