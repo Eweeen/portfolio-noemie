@@ -28,10 +28,8 @@ export default function HomePresentation(): JSX.Element {
   );
 
   const scrollTo = (): void => {
-    const projectsSection = document.getElementById("projects");
-    if (projectsSection) {
-      projectsSection.scrollIntoView({ behavior: "smooth" });
-    }
+    const el = document.getElementById("categories");
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
@@ -43,16 +41,16 @@ export default function HomePresentation(): JSX.Element {
           transition={{ duration: DURATION }}
           className="h-full flex flex-col items-center justify-center px-8"
         >
-          <h1 className="text-[40px] md:text-[56px] font-black -tracking-widest text-center">
+          <h1 className="text-[40px] md:text-[56px] font-black -tracking-widest text-center leading-none">
             Ici, on se perd pour
           </h1>
           <Image
             src="/svg/mieux-creer.svg"
             alt="Mieux créer"
             loading="lazy"
-            width={200}
-            height={100}
-            className="w-full md:w-140 h-auto -mt-7 md:-mt-10"
+            width={300}
+            height={200}
+            className="w-full md:w-140 h-auto -mt-7 md:-mt-5"
           />
           <p className="pt-3 md:text-xl text-center">
             (je m’occupe de tout réorganiser)

@@ -13,6 +13,7 @@ export default function Categories({
 }: Readonly<CategoriesProps>): JSX.Element {
   return (
     <div
+      id="categories"
       className={`flex flex-col xl:flex-row justify-between items-center gap-8 ${className || ""}`}
     >
       <div className="flex flex-col items-center md:items-start text-3xl font-black">
