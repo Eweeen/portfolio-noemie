@@ -45,11 +45,11 @@ export default function HomePresentation(): JSX.Element {
             Ici, on se perd pour
           </h1>
           <Image
-            src="/svg/mieux-creer.svg"
+            src="/images/mieux-creer.webp"
             alt="Mieux créer"
             loading="eager"
-            width={200}
-            height={100}
+            width={800}
+            height={800}
             className="w-full md:w-140 h-auto -mt-7 md:-mt-5"
           />
           <p className="pt-3 md:text-xl text-center">

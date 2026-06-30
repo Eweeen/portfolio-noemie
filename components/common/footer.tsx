@@ -8,11 +8,11 @@ export default function Footer(): JSX.Element {
       <div className="relative bg-[url('/images/fond.webp')] bg-cover bg-center pb-18 pt-34 md:px-24 md:py-34 rounded-lg overflow-hidden">
         <div className="flex flex-col items-center mb-6">
           <Image
-            src="/svg/merci.svg"
+            src="/images/merci.webp"
             alt="Merci"
             loading="eager"
-            width={200}
-            height={100}
+            width={800}
+            height={400}
             className="w-40 md:w-48 h-auto"
           />
           <p className="text-4xl md:text-5xl -mt-4 font-black tracking-[-0.08em] whitespace-nowrap">
