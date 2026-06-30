@@ -12,7 +12,7 @@ export default function ProjectItem({ project }: { project: Project }) {
         src={`/images/${project.name}/${project.preview}`}
         alt={`${project.title} preview`}
         fill
-        loading="eager"
+        loading="lazy"
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
       />

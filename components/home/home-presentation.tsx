@@ -49,7 +49,7 @@ export default function HomePresentation(): JSX.Element {
           <Image
             src="/svg/mieux-creer.svg"
             alt="Mieux créer"
-            loading="eager"
+            loading="lazy"
             width={200}
             height={100}
             className="w-full md:w-140 h-auto -mt-7 md:-mt-10"

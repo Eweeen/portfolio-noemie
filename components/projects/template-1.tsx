@@ -18,7 +18,7 @@ export default function Template1({ project }: Template1Props): JSX.Element {
             src={`/images/${project.name}/${project.content.imagePresentation}`}
             alt={`Image de présentation du projet ${project.title}`}
             className="rounded object-cover w-full h-full"
-            loading="eager"
+            loading="lazy"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
@@ -62,7 +62,7 @@ export default function Template1({ project }: Template1Props): JSX.Element {
                 src={`/images/${project.name}/${item}`}
                 alt={item}
                 className="object-cover w-full h-full"
-                loading="eager"
+                loading="lazy"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
@@ -104,7 +104,7 @@ export default function Template1({ project }: Template1Props): JSX.Element {
                 <Image
                   src={`/images/${project.name}/${item.path}`}
                   alt={item.path}
-                  loading="eager"
+                  loading="lazy"
                   className={`object-cover ${item.type === "landscape" ? "h-full w-auto" : "w-full h-auto"}`}
                   width={800}
                   height={800}
