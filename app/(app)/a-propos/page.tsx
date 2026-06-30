@@ -1,6 +1,6 @@
 "use client";
 
-import { DURATION, FROM, FROM_LEFT, FROM_RIGHT } from "@/types/animation";
+import { DURATION, FROM } from "@/types/animation";
 import { JSX } from "react";
 import { motion } from "motion/react";
 import Image from "next/image";
@@ -17,9 +17,9 @@ export default function About(): JSX.Element {
       <div className="relative h-[50dvh] bg-[url('/images/fond.webp')] bg-cover bg-bottom overflow-hidden">
         <div className="hidden md:block">
           <motion.div
-            animate={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: FROM_RIGHT }}
-            transition={{ duration: DURATION, delay: DURATION }}
+            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: FROM }}
+            transition={{ duration: DURATION }}
             className="absolute bottom-24 -right-8 rotate-6"
           >
             <Image
@@ -30,55 +30,29 @@ export default function About(): JSX.Element {
             />
           </motion.div>
           <motion.div
-            animate={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: FROM_LEFT }}
-            transition={{ duration: DURATION, delay: DURATION }}
+            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: FROM }}
+            transition={{ duration: DURATION }}
             className="absolute z-30 bottom-34 -left-20 rotate-y-180"
           >
             <Image
               src="/images/nuage-2.webp"
-              alt="Nuage 1"
+              alt="Nuage 2"
               width={458}
               height={115}
             />
           </motion.div>
           <motion.div
-            animate={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: FROM_LEFT }}
-            transition={{ duration: DURATION, delay: DURATION }}
-            className="absolute z-30 top-44 left-48 rotate-y-180"
-          >
-            <Image
-              src="/images/nuage-contour-1.webp"
-              alt="Nuage 1"
-              width={291}
-              height={113}
-            />
-          </motion.div>
-          <motion.div
-            animate={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: FROM_RIGHT }}
-            transition={{ duration: DURATION, delay: DURATION }}
+            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: FROM }}
+            transition={{ duration: DURATION }}
             className="absolute top-50 right-52"
           >
             <Image
               src="/images/nuage-contour-2.webp"
-              alt="Nuage 1"
+              alt="Nuage contour 2"
               width={355}
               height={95}
-            />
-          </motion.div>
-          <motion.div
-            animate={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: FROM_RIGHT }}
-            transition={{ duration: DURATION, delay: DURATION }}
-            className="absolute top-36 right-144"
-          >
-            <Image
-              src="/images/petit-nuage.webp"
-              alt="Nuage 1"
-              width={222}
-              height={59}
             />
           </motion.div>
         </div>
@@ -89,13 +63,13 @@ export default function About(): JSX.Element {
         initial={{ opacity: 0, y: FROM }}
         transition={{ duration: DURATION }}
       >
-        <header className="relative z-20 flex flex-col md:flex-row justify-between items-center gap-20 md:gap-40 -mt-50 mx-10 md:mx-50 mb-29 md:mb-40">
+        <header className="relative z-20 flex flex-col md:flex-row justify-between items-center gap-20 xl:gap-40 -mt-50 mx-10 xl:mx-50 mb-29 md:mb-40">
           <Image
             src="/images/noemie.webp"
             alt="Noémie"
             width={536}
             height={661}
-            className="rounded"
+            className="md:min-w-120 w-full rounded"
           />
 
           <div className="w-full flex flex-col">
@@ -130,10 +104,10 @@ export default function About(): JSX.Element {
         {/* Categories */}
         <Categories
           categories={categories}
-          className="px-10 md:px-50 mb-29 md:mb-40"
+          className="px-10 lg:px-24 xl:px-50 mb-29 md:mb-40"
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-40 px-10 md:px-68 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-40 px-10 lg:px-24 xl:px-68 mb-20">
           {/* Parcours scolaire */}
           <div>
             <h2 className="text-3xl font-black tracking-[-0.06em]">Parcours</h2>
