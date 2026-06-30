@@ -34,7 +34,7 @@ export default function ProjectContent({
   return (
     <>
       {/* Animation */}
-      <div className="relative h-dvh bg-[url('/images/fond.jpg')] bg-cover bg-bottom">
+      <div className="relative h-dvh bg-[url('/images/fond.webp')] bg-cover bg-bottom">
         <div className="fixed inset-0 pointer-events-none overflow-hidden">
           <motion.svg
             style={{ height }}

@@ -14,7 +14,7 @@ export default function Home(): JSX.Element {
 
       <div className="relative z-20 w-full bg-background p-10 md:p-33 space-y-28 md:space-y-45">
         {/* Categories */}
-        <Categories categories={categories} className="pt-25 2xl:px-33" />
+        <Categories categories={categories} className="pt-25 2xl:px-10" />
 
         {/* Video */}
         <div className="w-full aspect-video rounded-md overflow-hidden">

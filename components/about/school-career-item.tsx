@@ -8,7 +8,7 @@ export default function SchoolCareerItem({
 }): JSX.Element {
   const careerPeriod = (item: SchoolCareer): string => {
     const startYear = item.start.getFullYear();
-    const endYear = item.end ? item.end.getFullYear() : "Aujourd'hui";
+    const endYear = item.end ? item.end.getFullYear() : "AUJOURD'HUI";
 
     return `${startYear} - ${endYear}`;
   };

@@ -1,6 +1,6 @@
 "use client";
 
-import { DURATION, FROM } from "@/types/animation";
+import { DURATION, FROM, FROM_LEFT, FROM_RIGHT } from "@/types/animation";
 import { JSX } from "react";
 import { motion } from "motion/react";
 import Image from "next/image";
@@ -14,7 +14,75 @@ import ProfessionalCareerItem from "@/components/about/professional-career-item"
 export default function About(): JSX.Element {
   return (
     <>
-      <div className="relative h-[50dvh] bg-[url('/images/fond.jpg')] bg-cover bg-bottom"></div>
+      <div className="relative h-[50dvh] bg-[url('/images/fond.webp')] bg-cover bg-bottom overflow-hidden">
+        <div className="hidden md:block">
+          <motion.div
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: FROM_RIGHT }}
+            transition={{ duration: DURATION, delay: DURATION }}
+            className="absolute bottom-24 -right-8 rotate-6"
+          >
+            <Image
+              src="/images/nuage-1.webp"
+              alt="Nuage 1"
+              width={465}
+              height={98}
+            />
+          </motion.div>
+          <motion.div
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: FROM_LEFT }}
+            transition={{ duration: DURATION, delay: DURATION }}
+            className="absolute z-30 bottom-34 -left-20 rotate-y-180"
+          >
+            <Image
+              src="/images/nuage-2.webp"
+              alt="Nuage 1"
+              width={458}
+              height={115}
+            />
+          </motion.div>
+          <motion.div
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: FROM_LEFT }}
+            transition={{ duration: DURATION, delay: DURATION }}
+            className="absolute z-30 top-44 left-48 rotate-y-180"
+          >
+            <Image
+              src="/images/nuage-contour-1.webp"
+              alt="Nuage 1"
+              width={291}
+              height={113}
+            />
+          </motion.div>
+          <motion.div
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: FROM_RIGHT }}
+            transition={{ duration: DURATION, delay: DURATION }}
+            className="absolute top-50 right-52"
+          >
+            <Image
+              src="/images/nuage-contour-2.webp"
+              alt="Nuage 1"
+              width={355}
+              height={95}
+            />
+          </motion.div>
+          <motion.div
+            animate={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, x: FROM_RIGHT }}
+            transition={{ duration: DURATION, delay: DURATION }}
+            className="absolute top-36 right-144"
+          >
+            <Image
+              src="/images/petit-nuage.webp"
+              alt="Nuage 1"
+              width={222}
+              height={59}
+            />
+          </motion.div>
+        </div>
+      </div>
 
       <motion.div
         animate={{ opacity: 1, y: 0 }}
@@ -62,7 +130,7 @@ export default function About(): JSX.Element {
         {/* Categories */}
         <Categories
           categories={categories}
-          className="px-10 md:px-68 mb-29 md:mb-40"
+          className="px-10 md:px-50 mb-29 md:mb-40"
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 md:gap-40 px-10 md:px-68 mb-20">

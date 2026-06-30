@@ -11,7 +11,7 @@ export default function NotFound() {
     <div className="flex-1 flex flex-col bg-background font-[epilogue] text-black-blue">
       <Navbar />
 
-      <div className="flex-1 flex mt-24 md:mt-30 mx-6 md:mx-20 mb-6 md:mb-20 bg-[url('/images/fond-404.png')] bg-cover bg-center rounded-lg">
+      <div className="flex-1 flex mt-24 md:mt-30 mx-6 md:mx-20 mb-6 md:mb-20 bg-[url('/images/fond-404.webp')] bg-cover bg-center rounded-lg">
         <motion.div
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: FROM }}

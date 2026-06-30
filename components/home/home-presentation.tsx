@@ -34,7 +34,7 @@ export default function HomePresentation(): JSX.Element {
 
   return (
     <>
-      <div className="fixed h-dvh w-full z-10 flex flex-col items-center justify-center bg-[url('/images/fond-hp.png')] bg-cover bg-center">
+      <div className="fixed h-dvh w-full z-10 flex flex-col items-center justify-center bg-[url('/images/fond-hp.webp')] bg-cover bg-center">
         <motion.div
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: FROM }}
@@ -47,9 +47,9 @@ export default function HomePresentation(): JSX.Element {
           <Image
             src="/svg/mieux-creer.svg"
             alt="Mieux créer"
-            loading="lazy"
-            width={300}
-            height={200}
+            loading="eager"
+            width={200}
+            height={100}
             className="w-full md:w-140 h-auto -mt-7 md:-mt-5"
           />
           <p className="pt-3 md:text-xl text-center">
