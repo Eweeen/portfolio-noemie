@@ -11,6 +11,12 @@ import { professionalCareer } from "@/data/professional-career";
 import SchoolCareerItem from "@/components/about/school-career-item";
 import ProfessionalCareerItem from "@/components/about/professional-career-item";
 
+export const metadata = {
+  title: "À propos - Noémie Gentric",
+  description:
+    "Graphiste freelance en Bretagne, Noémie Gentric allie graphisme, motion design et webdesign pour créer une identité visuelle unique à votre projet.",
+};
+
 export default function About(): JSX.Element {
   return (
     <>

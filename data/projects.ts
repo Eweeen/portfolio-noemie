@@ -7,6 +7,10 @@ export const projects: Array<Project> = [
     name: "la-rennes-du-parc",
     title: "La Rennes du parc",
     preview: "preview.webp",
+    metadata: {
+      description:
+        'Découvrez le festival "La Rennes du parc", projet de graphisme et motion design par Noémie Gentric, graphiste freelance en Bretagne.',
+    },
     content: {
       title:
         "Création de l’identité visuelle et de 3 motions pour le festival fictif “la rennes du parc”",
@@ -41,6 +45,10 @@ export const projects: Array<Project> = [
     name: "colorize",
     title: "Colorize",
     preview: "preview.webp",
+    metadata: {
+      description:
+        "Colorize, un projet d'identité visuelle de dentifrice signé Noémie Gentric, graphiste freelance en Bretagne. Découvrez la création complète.",
+    },
     content: {
       title: "Création de l’identité visuelle fictive de colorize",
       description: `Colorize, une entreprise innovante a mis au point un dentifrice avec une formule brevetée, validée par les dentistes.\n
@@ -71,6 +79,10 @@ export const projects: Array<Project> = [
     name: "hackin-tregor",
     title: "Hack'in Tregor",
     preview: "hit-mockup.webp",
+    metadata: {
+      description:
+        "Hack'in Tregor un évènement sur hackin éthique, projet graphique réalisé par Noémie Gentric, graphiste freelance basée en Bretagne. Voir le projet complet.",
+    },
     content: {
       title: "Création de l’identité visuelle de l’évènement Hack’in Trégor",
       description: `Hack'In Trégor Day, première édition, est conçu pour vous sensibiliser aux enjeux de la sécurité informatique à travers des activités amusantes, des démonstrations pratiques et des témoignages inspirants.\n
@@ -103,6 +115,10 @@ export const projects: Array<Project> = [
     name: "pita",
     title: "Pita",
     preview: "magasin-mockup.webp",
+    metadata: {
+      description:
+        "Pita une application sur le partage culinaire, projet graphique réalisé par Noémie Gentric, graphiste freelance basée en Bretagne. Voir le projet complet.",
+    },
     content: {
       title: "Création de l’identité visuelle et de l’application fictive Pita",
       description: `Un application destinée au partage alimentaire, Grâce à l’application PITA. Reçois chez toi ou va chez un cuisinier en herbe pour partager un repas fait maison et à moindre coût !\n
@@ -134,6 +150,10 @@ export const projects: Array<Project> = [
     name: "air-up",
     title: "Air Up",
     preview: "subway-billboard-mockup.webp",
+    metadata: {
+      description:
+        "Découvrez le  projet de graphisme et motion design sur Air Up par Noémie Gentric, graphiste freelance en Bretagne.",
+    },
     content: {
       title: "Création d’un motion design fictive pour Air Up",
       description: `Votre client, AirUp, lance ce nouveau produit et souhaite toucher un <strong>public jeune</strong> avec cette campagne web. Vous devrez l’animer dans une <strong>direction artistique qui lui est propre</strong>.\n
@@ -160,6 +180,10 @@ export const projects: Array<Project> = [
     name: "telegramme",
     title: "Le Télégramme",
     preview: "preview.webp",
+    metadata: {
+      description:
+        "Découvrez les règles du mölkky  par le Télégramme, un projet de graphisme et motion design par Noémie Gentric, graphiste freelance en Bretagne.",
+    },
     content: {
       title:
         "Création d’un motion fictif pour le Télégramme sur les règles du mölkky",

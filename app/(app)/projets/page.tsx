@@ -10,6 +10,12 @@ import { motion, useMotionValue, useTransform, animate } from "motion/react";
 import { useIsMobile } from "@/hooks/use-is-mobile";
 import { DURATION, FROM } from "@/types/animation";
 
+export const metadata = {
+  title: "Projets - Noémie Gentric",
+  description:
+    "Découvrez le portfolio de Noémie Gentric, graphiste freelance en Bretagne : identités visuelles, vidéos animées et maquettes web réalisées avec passion.",
+};
+
 export default function Projects(): JSX.Element {
   const [filteredProjects, setFilteredProjects] = useState(projects);
   const [selectedCategories, setSelectedCategories] = useState<number[]>([]);

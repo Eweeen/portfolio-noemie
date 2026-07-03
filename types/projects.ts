@@ -6,6 +6,9 @@ export interface Project {
   name: string;
   preview: string;
   title: string;
+  metadata?: {
+    description: string;
+  };
   content: any;
   draft: boolean;
   categories: Category[];

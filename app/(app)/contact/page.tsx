@@ -9,6 +9,12 @@ import Link from "next/link";
 import Form from "next/form";
 import { contactAction } from "@/app/actions/contact";
 
+export const metadata = {
+  title: "Contact - Noémie Gentric",
+  description:
+    "Un projet en tête ? Contactez Noémie Gentric, graphiste freelance en Bretagne, pour discuter de votre identité visuelle, motion design ou webdesign.",
+};
+
 export default function Contact(): JSX.Element {
   // Form
   const [name, setName] = useState<string>("");

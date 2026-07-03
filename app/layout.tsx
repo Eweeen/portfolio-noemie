@@ -15,7 +15,8 @@ const customFont = localFont({
 
 export const metadata: Metadata = {
   title: "Noémie Gentric",
-  description: "My personal portfolio",
+  description:
+    "Noémie Gentric, graphiste freelance en Bretagne. Identité visuelle, motion design et webdesign sur-mesure pour donner vie à votre univers. Découvrez mes créations !",
 };
 
 export default function RootLayout({

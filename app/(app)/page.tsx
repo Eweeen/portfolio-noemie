@@ -7,6 +7,12 @@ import { projects } from "@/data/projects";
 import { categories } from "@/data/categories";
 import Projects from "@/components/projects/projects";
 
+export const metadata = {
+  title: "Accueil - Noémie Gentric",
+  description:
+    "Noémie Gentric, graphiste freelance en Bretagne. Identité visuelle, motion design et webdesign sur-mesure pour donner vie à votre univers. Découvrez mes créations !",
+};
+
 export default function Home(): JSX.Element {
   return (
     <div className="relative">
