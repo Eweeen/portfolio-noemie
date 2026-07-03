@@ -17,6 +17,26 @@ export const metadata: Metadata = {
   title: "Noémie Gentric",
   description:
     "Noémie Gentric, graphiste freelance en Bretagne. Identité visuelle, motion design et webdesign sur-mesure pour donner vie à votre univers. Découvrez mes créations !",
+  keywords: [
+    "Noémie Gentric",
+    "graphiste freelance Bretagne",
+    "graphiste freelance",
+    "graphiste Bretagne",
+    "identité visuelle",
+    "création d'identité visuelle",
+    "designer graphique",
+    "motion design",
+    "webdesign",
+    "création de site web",
+    "branding",
+    "communication visuelle",
+    "logo sur mesure",
+    "graphiste indépendante",
+    "studio graphique Bretagne",
+    "design graphique",
+  ],
+  authors: [{ name: "Noémie Gentric", url: "https://noemiegentric.fr" }],
+  creator: "Noémie Gentric",
 };
 
 export default function RootLayout({
