@@ -46,7 +46,7 @@ export default function Home(): JSX.Element {
         {/* Video */}
         <div className="w-full aspect-video rounded-md overflow-hidden">
           <iframe
-            src="https://www.youtube.com/embed/rDBDzWOrq88?si=gZzYg5XIlEWQIo-V"
+            src="https://www.youtube.com/embed/twaenp8CWoE?si=scZK0ECOKjezS44k"
             width="520"
             height="315"
             className="w-full h-full"
