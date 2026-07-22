@@ -1,5 +1,6 @@
 import ProjectContent from "@/components/projects/project-content";
 import { projects } from "@/data/projects";
+import { notFound } from "next/navigation";
 import { JSX } from "react";
 
 interface ProjectPageProps {
@@ -31,11 +32,7 @@ export default async function Project({
   const project = projects.find((p) => p.id === parseInt(id, 10));
 
   if (!project) {
-    return (
-      <div>
-        <h1>Project not found</h1>
-      </div>
-    );
+    notFound();
   }
 
   return <ProjectContent project={project} />;

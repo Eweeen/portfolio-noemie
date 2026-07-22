@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/components/common/navbar";
 import Link from "next/link";
 import Underline from "@/components/animations/line-2";
 import { motion } from "motion/react";
@@ -8,9 +7,7 @@ import { DURATION, FROM } from "@/types/animation";
 
 export default function NotFound() {
   return (
-    <div className="flex-1 flex flex-col bg-background font-[epilogue] text-black-blue">
-      <Navbar />
-
+    <div className="h-dvh flex-1 flex flex-col bg-background font-[epilogue] text-black-blue">
       <div className="flex-1 flex mt-24 md:mt-30 mx-6 md:mx-20 mb-6 md:mb-20 bg-[url('/images/fond-404.webp')] bg-cover bg-center rounded-lg">
         <motion.div
           animate={{ opacity: 1, y: 0 }}

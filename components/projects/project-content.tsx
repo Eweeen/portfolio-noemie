@@ -6,7 +6,6 @@ import { JSX, useEffect } from "react";
 import { motion, useMotionValue, useTransform, animate } from "motion/react";
 import { DURATION, FROM } from "@/types/animation";
 import Template1 from "./template-1";
-import Template2 from "./template-2";
 
 interface ProjectContentProps {
   project: Project;
@@ -54,7 +53,7 @@ export default function ProjectContent({
         transition={{ duration: DURATION }}
         className="relative z-20"
       >
-        <header className="flex justify-center gap-3 -mt-140 mb-28 px-10">
+        <header className="flex justify-center gap-3 mt-[-70dvh] mb-28 px-10">
           <h1 className="text-center text-background bg-black-blue py-2 px-3 rounded text-5xl font-black tracking-[-0.08em] -rotate-2">
             {project.title}
           </h1>

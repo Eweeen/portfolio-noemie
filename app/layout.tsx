@@ -3,6 +3,9 @@ import { Epilogue } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { JSX } from "react";
+import Navbar from "@/components/common/navbar";
+import Footer from "@/components/common/footer";
+import CookieConsent from "@/components/common/cookies-consent";
 
 const epilogue = Epilogue({
   variable: "--font-epilogue",
@@ -47,9 +50,17 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${epilogue.className} ${epilogue.variable} ${customFont.className} h-dvh text-dark-blue antialiased`}
+      className={`${epilogue.className} ${epilogue.variable} ${customFont.className} h-dvh antialiased`}
     >
-      <body className="min-h-dvh flex flex-col">{children}</body>
+      <body className="min-h-dvh flex flex-col">
+        <div className="h-full bg-background font-[epilogue] text-black-blue">
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+
+        <CookieConsent gaId="GTM-N2VT8FW4" />
+      </body>
     </html>
   );
 }

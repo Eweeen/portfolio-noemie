@@ -23,7 +23,7 @@ export default function Categories({
         </span>
       </div>
 
-      <div className="w-full xl:w-fit flex gap-20 overflow-x-auto xl:overflow-clip pb-6 md:pb-0 custom-scrollbar">
+      <div className="w-full xl:w-fit flex gap-12 2xl:gap-20 overflow-x-auto xl:overflow-clip pb-6 md:pb-0 custom-scrollbar">
         {categories.map((category) => (
           <CategoryItem key={category.id} category={category} />
         ))}

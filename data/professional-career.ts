@@ -35,6 +35,6 @@ export const professionalCareer: ProfessionalCareer[] = [
     organization: "Smala",
     place: "Nantes (44)",
     start: new Date("2025-06-01"),
-    end: null,
+    end: new Date("2026-07-31"),
   },
 ];
