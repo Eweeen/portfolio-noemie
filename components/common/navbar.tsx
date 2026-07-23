@@ -26,7 +26,7 @@ export default function Navbar(): JSX.Element {
 
   return (
     <>
-      <nav className="w-full fixed z-50 flex items-center justify-between py-7 px-10 lg:pt-10 lg:px-[10%]">
+      <nav className="w-full fixed z-50 flex items-center justify-between py-7 px-10 lg:pt-10 lg:px-33">
         <Link href="/">
           <LottieAnimation
             jsonData={loadingAnimation}

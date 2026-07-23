@@ -27,7 +27,7 @@ export default function ProjectItem({ project }: { project: Project }) {
             {project.categories.map((category) => (
               <span
                 key={category.id}
-                className="bg-white-blue-100 px-3 py-2 rounded-sm lowercase"
+                className="bg-white-blue-100 px-3 py-2 rounded-sm"
                 style={{ color: category.color }}
               >
                 {category.title}
