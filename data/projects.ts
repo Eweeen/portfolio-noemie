@@ -191,14 +191,14 @@ export const projects: Array<Project> = [
         Le but est de combiner créativité, narration, vulgarisation et respect d’une direction artistique déjà existante.`,
       imagePresentation: "preview.webp",
       firstPart: {
-        images: ["image-1.webp", "image-2.webp"],
+        images: ["image-1.webp", "b3dbe3212426749.6735bd0bece4b.gif"],
         caption:
           "J’ai eu envie de représenter l’aspect journal, authentique et écriture en utilisant de la texture papier, des photographies et des tracés crayonnés.",
       },
       nextPart: [
         [
           {
-            url: "https://www.youtube.com/embed/NK_llp5I530?si=WvX741w_B-IXAJDM",
+            url: "https://www.youtube.com/embed/5QkV1QAXseA?si=9jrvIHyjbyLDsP34",
           },
         ],
       ],
