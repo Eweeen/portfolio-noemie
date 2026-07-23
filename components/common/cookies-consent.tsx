@@ -59,7 +59,7 @@ export default function CookieConsent({ gaId }: { gaId: string }) {
           </p>
           <div className="flex gap-8">
             <button
-              className="text-white text-xl font-black bg-red px-3 py-2 rounded-sm -rotate-2 hover:rotate-0 transition-transform duration-300 cursor-pointer"
+              className="text-white font-black bg-red px-3 py-2 rounded-sm -rotate-2 hover:rotate-0 transition-transform duration-300 cursor-pointer"
               onClick={() => handleChoice("accepted")}
             >
               Avec plaisir !
