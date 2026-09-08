@@ -13,7 +13,7 @@ export default function ProjectItem({ project }: { project: Project }) {
         alt={`${project.title} preview`}
         fill
         loading="lazy"
-        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        sizes="(max-width: 767px) calc(100vw - 5rem), calc((100vw - 19.5rem) / 3)"
         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
       />
 
