@@ -43,6 +43,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-1.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={607}
             height={128}
             className="absolute -bottom-14 -left-40 rotate-y-180"
@@ -50,6 +51,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-2.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={617}
             height={155}
             className="absolute -bottom-10 -right-20 rotate-y-180"
@@ -57,6 +59,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-contour-1.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={376}
             height={146}
             className="absolute bottom-10 right-35 rotate-y-180"
@@ -64,6 +67,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-contour-2.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={402.5}
             height={108}
             className="absolute bottom-15 left-24 rotate-y-180"
@@ -71,6 +75,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/petit-nuage.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={222}
             height={59}
             className="absolute top-46 left-12.5"
@@ -82,6 +87,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-1.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={383}
             height={81}
             className="absolute -bottom-8 -left-1/3 rotate-y-180"
@@ -89,6 +95,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-2.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={346.5}
             height={87}
             className="absolute -bottom-8 -right-1/3 rotate-y-180"
@@ -96,6 +103,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-contour-1.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={211}
             height={82}
             className="absolute top-22 -right-6 rotate-y-180"
@@ -103,6 +111,7 @@ export default function Footer(): JSX.Element {
           <Image
             src="/images/nuage-contour-2.webp"
             alt="Nuages Desktop"
+            loading="lazy"
             width={254}
             height={68}
             className="absolute top-6 -left-12 rotate-y-180"

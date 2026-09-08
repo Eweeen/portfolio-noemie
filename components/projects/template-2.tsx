@@ -20,7 +20,7 @@ export default function Template2({ project }: Template2Props): JSX.Element {
             className="rounded object-cover w-full h-full"
             loading="lazy"
             fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes="(max-width: 767px) calc(100vw - 5rem), calc((100vw - 19.5rem) / 3)"
           />
         </div>
 
@@ -64,7 +64,7 @@ export default function Template2({ project }: Template2Props): JSX.Element {
                 className="object-cover w-full h-full"
                 loading="lazy"
                 fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes="(max-width: 767px) calc(100vw - 5rem), calc((100vw - 19.5rem) / 3)"
               />
             </div>
 

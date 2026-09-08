@@ -1,5 +1,7 @@
+FROM node:22-slim AS base
+
 # Dependencies
-FROM node:22-slim AS deps
+FROM base AS deps
 
 WORKDIR /app
 
@@ -11,7 +13,7 @@ RUN pnpm install --frozen-lockfile
 
 
 # Builder
-FROM node:22-slim AS builder
+FROM base AS builder
 
 WORKDIR /app
 
@@ -25,7 +27,7 @@ RUN pnpm build
 
 
 # Runner
-FROM node:22-slim AS runner
+FROM base AS runner
 
 WORKDIR /app
 
