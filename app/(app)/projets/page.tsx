@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "références graphiste freelance",
     "exemples identité visuelle",
   ],
-  authors: [{ name: "Noémie Gentric", url: "https://noemiegentric.fr" }],
+  authors: [{ name: "Noémie Gentric", url: "https://noemie-gentric.com" }],
   creator: "Noémie Gentric",
 };
 

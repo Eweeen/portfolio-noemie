@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "studio graphique Bretagne",
     "design graphique",
   ],
-  authors: [{ name: "Noémie Gentric", url: "https://noemiegentric.fr" }],
+  authors: [{ name: "Noémie Gentric", url: "https://noemie-gentric.com" }],
   creator: "Noémie Gentric",
 };
 

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "accompagnement communication visuelle",
     "graphiste indépendante Bretagne",
   ],
-  authors: [{ name: "Noémie Gentric", url: "https://noemiegentric.fr" }],
+  authors: [{ name: "Noémie Gentric", url: "https://noemie-gentric.com" }],
   creator: "Noémie Gentric",
 };
 

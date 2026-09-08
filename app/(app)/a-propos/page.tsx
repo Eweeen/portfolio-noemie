@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "identité de marque",
     "designer freelance",
   ],
-  authors: [{ name: "Noémie Gentric", url: "https://noemiegentric.fr" }],
+  authors: [{ name: "Noémie Gentric", url: "https://noemie-gentric.com" }],
   creator: "Noémie Gentric",
 };
 
