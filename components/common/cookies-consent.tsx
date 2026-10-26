@@ -1,7 +1,7 @@
 "use client";
 
 import { useSyncExternalStore, useCallback } from "react";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const CONSENT_KEY = "cookie-consent";
 type Consent = "accepted" | "refused" | null;
@@ -36,7 +36,7 @@ function setConsentValue(choice: "accepted" | "refused") {
   emitChange(); // notify this tab's subscribers immediately
 }
 
-export default function CookieConsent({ gaId }: { gaId: string }) {
+export default function CookieConsent({ gtmId }: { gtmId: string }) {
   const consent = useSyncExternalStore(
     subscribe,
     getSnapshot,
@@ -49,7 +49,7 @@ export default function CookieConsent({ gaId }: { gaId: string }) {
 
   return (
     <>
-      {consent === "accepted" && <GoogleAnalytics gaId={gaId} />}
+      {consent === "accepted" && <GoogleTagManager gtmId={gtmId} />}
 
       {consent === null && (
         <div className="fixed z-50 bottom-0 right-0 left-0 bg-[#e2e8f6] font-[epilogue] py-4 px-4 md:px-20 flex flex-col md:flex-row items-center justify-between gap-4">

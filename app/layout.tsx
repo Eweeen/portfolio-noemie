@@ -59,7 +59,7 @@ export default function RootLayout({
           <Footer />
         </div>
 
-        <CookieConsent gaId="GTM-N2VT8FW4" />
+        <CookieConsent gtmId="GTM-N2VT8FW4" />
       </body>
     </html>
   );
