@@ -1,6 +1,7 @@
 import { links } from "@/utils/const";
 import Image from "next/image";
 import { JSX } from "react";
+import { CookiePreferencesButton } from "./cookies-consent";
 
 export default function Footer(): JSX.Element {
   return (
@@ -37,6 +38,9 @@ export default function Footer(): JSX.Element {
         <p className="text-center">
           © {new Date().getFullYear()} noémie-gentric
         </p>
+        <div className="relative z-10 mt-4 text-center">
+          <CookiePreferencesButton />
+        </div>
 
         {/* Nuages Desktop */}
         <div className="hidden lg:block">
